@@ -1,0 +1,12 @@
+{
+  "name": "skyline-ledger",
+  "version": "1.0.0",
+  "description": "A weather report built like a small data pipeline: extract, validate, clean, and aggregate live weather data, with every stage shown.",
+  "private": true,
+  "scripts": {
+    "test": "node tests/etl.test.js",
+    "start": "npx --yes serve . -l 5173"
+  },
+  "license": "MIT",
+  "keywords": ["weather", "data-engineering", "etl", "static-site"]
+}
